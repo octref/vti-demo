@@ -1,0 +1,17 @@
+{
+  "name": "vite-vti",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "type-check": "vti diagnostics",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.2"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.2",
+    "vite": "^1.0.0-rc.8",
+    "vti": "^0.0.14"
+  }
+}
