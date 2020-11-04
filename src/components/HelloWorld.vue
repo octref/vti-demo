@@ -9,8 +9,8 @@ export default defineComponent({
   name: 'HelloWorld',
   props: {
     user: {
-      type: Object as PropType<String>
-      // type: Object as PropType<{ name: string }>
+      // type: Object as PropType<String>
+      type: Object as PropType<{ name: string }>
     }
   }
 })
