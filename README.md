@@ -2,9 +2,11 @@
   <h2 align="center">Demo for <a href='https://vuejs.github.io/vetur/vti.html'>VTI</a></h2>
 </p>
 
-## How this works
+## What's this?
 
-A workflow runs `vti diagnostics` on CI and produces these errors:
+[A GitHub action](./.github/workflows/ci.yml) running `vti diagnostics` on each commit to type-check your Vue project.
+
+Output for latest commit on master:
 
 ```
 Getting diagnostics from:  [ 'src/App.vue', 'src/components/HelloWorld.vue' ] 
@@ -18,4 +20,5 @@ Error: Property 'name' does not exist on type 'String'.
 
 You can run `yarn && yarn type-check` to get these errors on CLI as well.
 
-[This PR](https://github.com/octref/vti-demo/pulls/1) fixes the type error and the build then succeeds.
+[This PR](https://github.com/octref/vti-demo/pull/1) fixes the type error and the build then passes.
+
